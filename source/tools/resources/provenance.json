@@ -21,7 +21,7 @@
             "type": "Organization"
           },
           {
-            "location": "F\u00fcrth, Germany",
+            "location": "Germany",
             "type": "User"
           },
           {
@@ -60,4 +60,4 @@
       "message": "Success",
       "status": "SUCCESS"
     }
-  }
+}
