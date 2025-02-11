@@ -24,6 +24,10 @@ After running that command, you should receive the output in the following forma
 
 In this example, we are querying the Provenance information for the scanoss.py project and getting the location of the contribuitors for the project: Argentina, Germany, South Korea and so on.
 
+
+You will also see a two different lists of provenance information: curated_locations and declared_locations. At SCANOSS we strive for getting the most accurate results, because of this our team of curators work on validating the veracity of the information we gather. However, this isn't possible for all the information we gather, the declared_locations list contains data made available by the contribuitors.
+
+
 .. note:: 
     For some projects with 5000 or more contribuitors you may receive a message saying "Too many contributors for: <package_url>", that is intentional and related to GitHub's API limit for querying this information.
 
