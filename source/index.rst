@@ -1,7 +1,7 @@
-SCANOSS Decoration Services 
+SCANOSS Datasets
 ===========================
 
-Welcome to the SCANOSS Decoration Services documentation, in here you will find all information regarding the decoration services (cryptography, vulnerabilities, provenance and so on).
+Welcome to the SCANOSS Datasets documentation, in here you will find all information related to the available datasets (cryptography, vulnerabilities, provenance and so on).
 
 .. note::
   This page is a work in progress, and will be updated over time.

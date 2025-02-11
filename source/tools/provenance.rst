@@ -1,17 +1,18 @@
-SCANOSS Provenance service
+SCANOSS Provenance dataset
 ==========================
 
 The SCANOSS Provenance provides information about the location of the contribuitors of a project of the user's choice.
 
 .. note::
-    This service is only available to premium users (Shared or Dedicated SaaS and On-Premises).
+    This dataset
+ is only available to premium users (Shared or Dedicated SaaS and On-Premises).
 
-Ways to consume this service
+Ways to consume this dataset
 ----------------------------
 
-There are multiple ways to consume this service, one of which is throught the use of `scanoss-py <https://github.com/scanoss/scanoss.py>`_ the SCANOSS Python CLI.
+There are multiple ways to consume this dataset, one of which is throught the use of `scanoss-py <https://github.com/scanoss/scanoss.py>`_ the SCANOSS Python CLI.
 
-To consume the Provenance service from scanoss-py, you would need to run the following command:
+To consume the Provenance dataset from scanoss-py, you would need to run the following command:
 
 .. code-block:: bash
 
@@ -31,7 +32,22 @@ You will also see a two different lists of provenance information: curated_locat
 .. note:: 
     For some projects with 5000 or more contribuitors you may receive a message saying "Too many contributors for: <package_url>", that is intentional and related to GitHub's API limit for querying this information.
 
-Other ways to query the service
+Other ways to query the dataset
 -------------------------------
 
-There are other ways to query this service, for that we encourage you to refer to the `documentation for the API <https://github.com/scanoss/papi/blob/main/CLIENT_HELP.md>`_ where you will find all methods and specifications.
+There are other ways to query this dataset, one of them is using the SCANOSS API as it follows:
+
+.. code-block:: bash
+
+    curl --location 'https://api.scanoss.com/api/v2/provenance/countries' \
+    --header 'Content-Type: application/json' \
+    --header 'X-Api-Key: <api_key>' \
+    --data '{
+    "purls": [
+        {
+        "purl": <package_url>
+        }
+    ]
+}'
+
+For more information refer to the `API documentation <https://github.com/scanoss/papi/blob/main/CLIENT_HELP.md>`_ and `protobuff definitions <https://github.com/scanoss/papi/blob/main/protobuf/scanoss/api/provenance/v2/scanoss-provenance.proto>`_. 

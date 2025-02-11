@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Decoration services'
+project = 'SCANOSS Datasets'
 copyright = '2024, Scan Open Source Solutions SL'
 author = 'Scan Open Source Solutions SL'
 
