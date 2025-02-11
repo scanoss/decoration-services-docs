@@ -1,0 +1,63 @@
+{
+    "purls": [
+      {
+        "curated_locations": [
+          {
+            "count": 1,
+            "country": "Spain"
+          },
+          {
+            "count": 3,
+            "country": "Argentina"
+          },
+          {
+            "count": 1,
+            "country": "United States"
+          }
+        ],
+        "declared_locations": [
+          {
+            "location": "Spain",
+            "type": "Organization"
+          },
+          {
+            "location": "F\u00fcrth, Germany",
+            "type": "User"
+          },
+          {
+            "location": "Seoul, Republic of Korea",
+            "type": "User"
+          },
+          {
+            "location": "New York",
+            "type": "User"
+          },
+          {
+            "location": "Oakland",
+            "type": "User"
+          },
+          {
+            "location": "Argentina",
+            "type": "User"
+          },
+          {
+            "location": "Tandil",
+            "type": "User"
+          },
+          {
+            "location": "Argentina",
+            "type": "User"
+          },
+          {
+            "location": "Massy, France",
+            "type": "User"
+          }
+        ],
+        "purl": "pkg:github/scanoss/scanoss.py"
+      }
+    ],
+    "status": {
+      "message": "Success",
+      "status": "SUCCESS"
+    }
+  }
