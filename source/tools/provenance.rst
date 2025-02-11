@@ -48,6 +48,6 @@ There are other ways to query this dataset, one of them is using the SCANOSS API
         "purl": <package_url>
         }
     ]
-}'
+    }'
 
 For more information refer to the `API documentation <https://github.com/scanoss/papi/blob/main/CLIENT_HELP.md>`_ and `protobuff definitions <https://github.com/scanoss/papi/blob/main/protobuf/scanoss/api/provenance/v2/scanoss-provenance.proto>`_. 
