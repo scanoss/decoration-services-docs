@@ -1,11 +1,10 @@
 SCANOSS Provenance dataset
 ==========================
 
-The SCANOSS Provenance provides information about the location of the contribuitors of a project of the user's choice.
+The SCANOSS Provenance provides information about the location of the contribuitors of a project of the user's choice, this information is mined from GitHub.
 
 .. note::
-    This dataset
- is only available to premium users (Shared or Dedicated SaaS and On-Premises).
+    This dataset is only available to premium users (Shared or Dedicated SaaS and On-Premises).
 
 Ways to consume this dataset
 ----------------------------
