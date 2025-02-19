@@ -1,0 +1,18 @@
+{
+    "purls": [
+      {
+        "algorithms": [
+          {
+            "algorithm": "shax",
+            "strength": "128-512"
+          },
+          {
+            "algorithm": "md5",
+            "strength": "128"
+          }
+        ],
+        "purl": "pkg:github/scanoss/scanoss.py",
+        "version": "v1.20.0"
+      }
+    ]
+}

@@ -12,3 +12,4 @@ Welcome to the SCANOSS Datasets documentation, in here you will find all informa
    :caption: Contents
 
    tools/provenance
+   tools/cryptography
