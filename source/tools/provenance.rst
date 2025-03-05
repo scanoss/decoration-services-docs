@@ -4,7 +4,7 @@ SCANOSS Provenance dataset
 The SCANOSS Provenance provides information about the location of the contribuitors of a project of the user's choice, this information is mined from GitHub.
 
 .. note::
-    This dataset is only available to premium users (Shared or Dedicated SaaS and On-Premises).
+    This dataset is only available to paid users (Shared or Dedicated SaaS and On-Premises).
 
 Ways to consume this dataset
 ----------------------------
@@ -29,7 +29,7 @@ You will also see a two different lists of provenance information: curated_locat
 
 
 .. note:: 
-    For some projects with 5000 or more contribuitors you may receive a message saying "Too many contributors for: <package_url>", that is intentional and related to GitHub's API limit for querying this information.
+    For projects with 5000 or more contribuitors you may receive a message saying "Too many contributors for: <package_url>", that is intentional and related to GitHub's API limit for querying this information.
 
 Other ways to query the dataset
 -------------------------------
